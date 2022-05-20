@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redmie by Rodipisroi</title>
+
+    <link rel="stylesheet" href="dist/output.css">
+   
+    <!-- <link rel="stylesheet" href="style.css"> -->
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+    <header class="w-full bg-black xs:bg-transparent xs:bg-opacity-50 relative xs:fixed z-10">
+        <div class="lg:flex justify-between">
+            <div class="flex items-center justify-between relative px-2 py-2">
+                <a href="#home"><img src="/src/img/logo1.png" alt="logo" class="w-32 lg:w-40 lg:px-4"></a>
+                <div id="hamburger" class=" border border-white p-1 transition duration-300 lg:hidden">
+                    <div class="space-y-1">
+                        <div class="w-6 h-1 bg-white"></div>
+                        <div class="w-6 h-1 bg-white"></div>
+                        <div class="w-6 h-1 bg-white"></div>
+                      </div>
+                </div>
+                
+            </div>
+            <div class="self-center px-8">
+                <nav id="nav-menu" class="hidden absolute top-0 left-0 pt-10 lg:pt-0 bg-black bg-opacity-50 w-full lg:block lg:static lg:bg-transparent lg:w-1/2">
+                    <ul class="py-4 px-4 text-white block lg:flex">
+                        <li class="w-full bg-rose-500 mb-2 px-2 lg:mx-4 lg:bg-transparent  lg:font-bold lg:text-lg"><a class="hover:text-black lg:hover:text-rose-500 transition duration-300" href="#home">Beranda</a></li>
+                        <li class="w-full bg-rose-500 mb-2 px-2 lg:mx-4 lg:bg-transparent  lg:font-bold lg:text-lg"><a class="hover:text-black lg:hover:text-rose-500 transition duration-300" href="#about">Tentang</a></li>
+                        <li class="w-full bg-rose-500 mb-2 px-2 lg:mx-4 lg:bg-transparent  lg:font-bold lg:text-lg"><a class="hover:text-black lg:hover:text-rose-500 transition duration-300" href="#menu">Menu</a></li>
+                        <li class="w-full bg-rose-500 mb-2 px-2 lg:mx-4 lg:bg-transparent  lg:font-bold lg:text-lg"><a class="hover:text-black lg:hover:text-rose-500 transition duration-300" href="#contact">Kontak</a></li>
+                        <div id="close" class="w-9 h-9 bg bg-rose-500 mx-auto mt-4 p-2 rounded-md overflow-hidden lg:hidden hover:bg-white">
+                            <img src="/src/img/close.png" alt="">
+                        </div>
+                    </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner Section -->
+    <div id="home" class="w-full relative flex">
+        <div class="w-full brightness-50">
+            <div id="carouselExampleSlidesOnly" class="carousel slide relative" data-bs-ride="carousel">
+                <div class="carousel-inner relative w-full overflow-hidden">
+                  <div class="carousel-item active relative float-left w-full">
+                    <img
+                      src="/src/img/noodlebanner.png"
+                      class="block w-full"
+                      alt="banner 1"
+                    />
+                  </div>
+                  <div class="carousel-item relative float-left w-full">
+                    <img
+                      src="/src/img/noodlebanner2.jpg"
+                      class="block w-full"
+                      alt="banner 2"
+                    />
+                  </div>
+                  <div class="carousel-item relative float-left w-full">
+                    <img
+                      src="/src/img/noodlebanner3.jpg"
+                      class="block w-full"
+                      alt="banner 3"
+                    />
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+        <h1 class="absolute px-2 text-4xl md:text-6xl uppercase 2xl:text-9xl text-white font-extrabold self-center">Nikmati <br> Pedasnya<br>Rasakan <br> Sensasinya</h1>
+    </div>
+
+    <section id="about" class=" bg-rose-500 pb-4">
+        <div class="container px-4 lg:px24 pt-8 mx-auto">
+            <h3 class="text-center text-3xl md:text-5xl font-Boogalo pt-4">Mie Terenak di Metaverse</h3>
+            <p class="text-stone-100 text-center text-lg md:text-xl font-medium font-Heebo max-w-4xl mx-auto">Mie dengan ciri khas warna merah dengan rasa pedas dan dipadukan dengan bumbu rempah serta topping pilihan yang membuatnya memiliki cita rasa pedas gurih yang khas</p>
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 mt-4">
+                <div class="text-black bg-slate-200 p-4 rounded-md hover:scale-105 transition duration-300 ease-in-out hover:shadow-2xl">
+                    <img src="/src/img/safe.png" alt="Higienis" class="w-20">
+                    <h6 class="font-semibold text-xl md:text-2xl">Higienis</h6>
+                    <p class="text-justify font-Heebo md:text-lg">Kami akan selalu memperhatikan kehigienisan makanan kami, karena bagi kami kepuasan pengunjung adalah nomor satu.</p>
+                </div>
+                <div class="text-black bg-slate-200 p-4 rounded-md hover:scale-105 transition duration-300 ease-in-out hover:shadow-2xl">
+                    <img src="/src/img/delicious.png" alt="enak" class="w-20">
+                    <h6 class="font-semibold text-xl md:text-2xl">Enak</h6>
+                    <p class="text-justify font-Heebo md:text-lg">Selama bertahun tahun, kami selalu mengupayakan cita rasa terbaik yang dinikmati pelanggan setiap harinya.</p>
+                </div>
+                <div class="text-black bg-slate-200 p-4 rounded-md hover:scale-105 transition duration-300 ease-in-out hover:shadow-2xl">
+                    <img src="/src/img/halal.png" alt="halal" class="w-20">
+                    <h6 class="font-semibold text-xl md:text-2xl">Halal</h6>
+                    <p class="text-justify font-Heebo md:text-lg">Kami juga tak lupa memperhatikan kehalalan suatu produk, kami pastikan semua bahan makanan dan produk yang kami gunakan 100% halal sesuai rekomendasi dari MUI.</p>
+                </div>
+                <div class="text-black bg-slate-200 p-4 rounded-md hover:scale-105 transition duration-300 ease-in-out hover:shadow-2xl">
+                    <img src="/src/img/millenial.png" alt="" class="w-20">
+                    <h6 class="font-semibold text-xl md:text-2xl">Trendy</h6>
+                    <p class="text-justify font-Heebo md:text-lg">Tempat kami merupakan tempat yang friendly untuk dikunjungi semua golongan, baik tua maupun muda. Terdapat berbagai fasilitas serta sport foto menarik yang tidak ketinggalan.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="story" class="mt-4 p-4">
+        <h3 class="text-center text-4xl md:text-5xl font-Boogalo py-2">Kisah Kami</h3>
+        <div class="container px-4 lg:px24 pb-4 bg-rose-500 rounded-md mx-auto">
+            <div class="flex flex-wrap pt-4 lg:flex-none items-center">
+                <div class="w-full lg:w-1/2">
+                    <img src="/src/img/history.jpg" alt="" class="rounded-md opacity-80 mx-auto">
+                </div>
+                <div class="w-full lg:w-1/2 p-4 self-center">
+                    <p class="text-white text-justify md:text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel iste excepturi, sunt minus doloribus ullam sed dolorum eius? Atque, illum! Incidunt eos nesciunt rerum quae, assumenda maxime provident hic commodi dolor soluta illum architecto quas molestiae sed eius tenetur ipsum quibusdam fugiat, aperiam ratione est? Illum nemo deleniti facilis ipsa dolores. Deleniti ipsam cum dolores? Labore libero voluptatem accusamus tempora quod repellendus exercitationem ullam minima fugiat at, dignissimos dolores non repudiandae quaerat ratione saepe hic sapiente nisi cumque. Accusamus ea libero quas, quia aut minus. Ea, necessitatibus est sequi earum neque, voluptatibus deserunt fuga dolorem unde magni minus architecto quo.</p>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="menu" class="bg-stone-100">
+            <h3 class="text-center text-4xl md:text-5xl font-Boogalo pb-4 py-10">Menu Pilihan</h3>
+        <div class="bg-rose-500 flex overflow-hidden mb-2 justify-center lg:justify-start">
+            <div class="self-center h-5 w-[105px] bg-white  -rotate-45"></div>
+            
+            <h4 class="text-white self-center font-Boogalo text-2xl md:text-4xl text-center px-2">Main Dish</h4>
+            <div class="self-center h-5 w-[105px] bg-white  -rotate-45"></div>
+            
+        </div>
+        <div class="container px-4 lg:px-24 py-4 mx-auto">
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                <div class="bg-white shadow-xl p-4 rounded-lg group border border-rose-500">
+                    <div class="relative flex overflow-hidden rounded-lg border border-rose-500">
+                        <p class="absolute self-end p-4 text-white hidden group-hover:block z-10 transition duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi repellendus eligendi sapiente fugiat.</p>
+                        <img src="/src/img/noodle.png" alt="" class="rounded-lg group-hover:brightness-50 group-hover:scale-110 transition duration-300 ease-in-out">
+                    </div>
+                    
+                    <h5 class="text-center text-2xl font-light md:text-3xl font-Boogalo mt-2">Red Mie</h5>
+                </div>
+                <div class="bg-white shadow-xl p-4 rounded-lg group border border-rose-500">
+                    <div class="relative flex overflow-hidden rounded-lg border border-rose-500">
+                        <p class="absolute self-end p-4 text-white hidden group-hover:block z-10 transition duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi repellendus eligendi sapiente fugiat.</p>
+                        <img src="/src/img/noodle2.jpg" alt="" class="rounded-lg group-hover:brightness-50 group-hover:scale-110 transition duration-300 ease-in-out">
+                    </div>
+                    
+                    <h5 class="text-center text-2xl font-light md:text-3xl font-Boogalo mt-2">Colored Mie</h5>
+                </div>
+                <div class="bg-white shadow-xl p-4 rounded-lg group border border-rose-500">
+                    <div class="relative flex overflow-hidden rounded-lg border border-rose-500">
+                        <p class="absolute self-end p-4 text-white hidden group-hover:block z-10 transition duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi repellendus eligendi sapiente fugiat.</p>
+                        <img src="/src/img/noodle3.jpg" alt="" class="rounded-lg group-hover:brightness-50 group-hover:scale-110 transition duration-300 ease-in-out">
+                    </div>
+                    
+                    <h5 class="text-center text-2xl font-light md:text-3xl font-Boogalo mt-2">Scared Mie</h5>
+                </div>
+                <div class="bg-white shadow-xl p-4 rounded-lg group border border-rose-500">
+                    <div class="relative flex overflow-hidden rounded-lg border border-rose-500">
+                        <p class="absolute self-end p-4 text-white hidden group-hover:block z-10 transition duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi repellendus eligendi sapiente fugiat.</p>
+                        <img src="/src/img/noodle4.jpg" alt="" class="rounded-lg group-hover:brightness-50 group-hover:scale-110 transition duration-300 ease-in-out">
+                    </div>
+                    
+                    <h5 class="text-center text-2xl font-light md:text-3xl font-Boogalo mt-2">ArmoRed Mie</h5>
+                </div>
+                
+                
+            </div>
+        </div>
+
+        <div class="bg-rose-500 flex flex-row-reverse overflow-hidden mb-2 justify-center lg:justify-start">
+            <div class="self-center h-5 w-32 bg-white  -rotate-45"></div>
+            
+            <h4 class="text-white self-center font-Boogalo text-2xl md:text-4xl text-center px-2">Appetizer</h4>
+            <div class="self-center h-5 w-32 bg-white  -rotate-45"></div>
+            
+        </div>
+        <div class="container px-4 lg:px-24 py-4 mx-auto">
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                <div class="bg-white shadow-xl p-4 rounded-lg group border border-rose-500">
+                    <div class="relative flex overflow-hidden rounded-lg border border-rose-500">
+                        <p class="absolute self-end p-4 text-white hidden group-hover:block z-10 transition duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi repellendus eligendi sapiente fugiat.</p>
+                        <img src="/src/img/dimsum.jpg" alt="" class="rounded-lg group-hover:brightness-50 group-hover:scale-110 transition duration-300 ease-in-out">
+                    </div>
+                    
+                    <h5 class="text-center text-2xl font-light md:text-4xl font-Boogalo mt-2">Dimsum</h5>
+                </div>
+                <div class="bg-white shadow-xl p-4 rounded-lg group border border-rose-500">
+                    <div class="relative flex overflow-hidden rounded-lg border border-rose-500">
+                        <p class="absolute self-end p-4 text-white hidden group-hover:block z-10 transition duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi repellendus eligendi sapiente fugiat.</p>
+                        <img src="/src/img/tahu.jpg" alt="" class="rounded-lg group-hover:brightness-50 group-hover:scale-110 transition duration-300 ease-in-out">
+                    </div>
+                    
+                    <h5 class="text-center text-2xl font-light md:text-4xl font-Boogalo mt-2">Tahu</h5>
+                </div>
+                <div class="bg-white shadow-xl p-4 rounded-lg group border border-rose-500">
+                    <div class="relative flex overflow-hidden rounded-lg border border-rose-500">
+                        <p class="absolute self-end p-4 text-white hidden group-hover:block z-10 transition duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi repellendus eligendi sapiente fugiat.</p>
+                        <img src="/src/img/nugget.jpg" alt="" class="rounded-lg group-hover:brightness-50 group-hover:scale-110 transition duration-300 ease-in-out">
+                    </div>
+                    
+                    <h5 class="text-center text-2xl font-light md:text-4xl font-Boogalo mt-2">Nugget</h5>
+                </div>
+                <div class="bg-white shadow-xl p-4 rounded-lg group border border-rose-500">
+                    <div class="relative flex overflow-hidden rounded-lg border border-rose-500">
+                        <p class="absolute self-end p-4 text-white hidden group-hover:block z-10 transition duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi repellendus eligendi sapiente fugiat.</p>
+                        <img src="/src/img/platter.jpg" alt="" class="rounded-lg group-hover:brightness-50 group-hover:scale-110 transition duration-300 ease-in-out">
+                    </div>
+                    
+                    <h5 class="text-center text-2xl font-light md:text-4xl font-Boogalo mt-2">Platter</h5>
+                </div>
+                <div class="bg-white shadow-xl p-4 rounded-lg group border border-rose-500">
+                    <div class="relative flex overflow-hidden rounded-lg border border-rose-500">
+                        <p class="absolute self-end p-4 text-white hidden group-hover:block z-10 transition duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi repellendus eligendi sapiente fugiat.</p>
+                        <img src="/src/img/sandwich.jpg" alt="" class="rounded-lg group-hover:brightness-50 group-hover:scale-110 transition duration-300 ease-in-out">
+                    </div>
+                    
+                    <h5 class="text-center text-2xl font-light md:text-4xl font-Boogalo mt-2">sandwich</h5>
+                </div>
+                <div class="bg-white shadow-xl p-4 rounded-lg group border border-rose-500">
+                    <div class="relative flex overflow-hidden rounded-lg border border-rose-500">
+                        <p class="absolute self-end p-4 text-white hidden group-hover:block z-10 transition duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi repellendus eligendi sapiente fugiat.</p>
+                        <img src="/src/img/siomay.jpg" alt="" class="rounded-lg group-hover:brightness-50 group-hover:scale-110 transition duration-300 ease-in-out">
+                    </div>
+                    
+                    <h5 class="text-center text-2xl font-light md:text-4xl font-Boogalo mt-2">Siomay</h5>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div class="bg-rose-500 flex overflow-hidden mb-2 justify-center lg:justify-start">
+            <div class="self-center h-5 w-32 bg-white  -rotate-45"></div>
+            
+            <h4 class="text-white self-center font-Boogalo text-2xl  md:text-4xl text-center px-2">Dessert</h4>
+            <div class="self-center h-5 w-32 bg-white  -rotate-45"></div>
+            
+        </div>
+        <div class="container px-4 lg:px-24 py-4 mx-auto">
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                <div class="bg-white shadow-xl p-4 rounded-lg group border border-rose-500">
+                    <div class="relative flex overflow-hidden rounded-lg border border-rose-500">
+                        <p class="absolute self-end p-4 text-white hidden group-hover:block z-10 transition duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi repellendus eligendi sapiente fugiat.</p>
+                        <img src="/src/img/donat.jpg" alt="" class="rounded-lg group-hover:brightness-50 group-hover:scale-110 transition duration-300 ease-in-out">
+                    </div>
+                    
+                    <h5 class="text-center text-2xl font-light md:text-4xl font-Boogalo mt-2">Donat</h5>
+                </div>
+                <div class="bg-white shadow-xl p-4 rounded-lg group border border-rose-500">
+                    <div class="relative flex overflow-hidden rounded-lg border border-rose-500">
+                        <p class="absolute self-end p-4 text-white hidden group-hover:block z-10 transition duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi repellendus eligendi sapiente fugiat.</p>
+                        <img src="/src/img/bread.jpg" alt="" class="rounded-lg group-hover:brightness-50 group-hover:scale-110 transition duration-300 ease-in-out">
+                    </div>
+                    
+                    <h5 class="text-center text-2xl font-light md:text-4xl font-Boogalo mt-2">Pancake</h5>
+                </div>
+                <div class="bg-white shadow-xl p-4 rounded-lg group border border-rose-500">
+                    <div class="relative flex overflow-hidden rounded-lg border border-rose-500">
+                        <p class="absolute self-end p-4 text-white hidden group-hover:block z-10 transition duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi repellendus eligendi sapiente fugiat.</p>
+                        <img src="/src/img/cake.jpg" alt="" class="rounded-lg group-hover:brightness-50 group-hover:scale-110 transition duration-300 ease-in-out">
+                    </div>
+                    
+                    <h5 class="text-center text-2xl font-light md:text-4xl font-Boogalo mt-2">Cake</h5>
+                </div>
+                <div class="bg-white shadow-xl p-4 rounded-lg group border border-rose-500">
+                    <div class="relative flex overflow-hidden rounded-lg border border-rose-500">
+                        <p class="absolute self-end p-4 text-white hidden group-hover:block z-10 transition duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi repellendus eligendi sapiente fugiat.</p>
+                        <img src="/src/img/icecream.jpg" alt="" class="rounded-lg group-hover:brightness-50 group-hover:scale-110 transition duration-300 ease-in-out">
+                    </div>
+                    
+                    <h5 class="text-center text-2xl font-light md:text-4xl font-Boogalo mt-2">Ice Cream</h5>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+        <div class="bg-rose-500 flex flex-row-reverse overflow-hidden mb-2 justify-center lg:justify-start">
+            <div class="self-center h-5 w-32 bg-white  -rotate-45"></div>
+            
+            <h4 class="text-white self-center font-Boogalo text-2xl  md:text-4xl text-center px-2">Beverage</h4>
+            <div class="self-center h-5 w-32 bg-white  -rotate-45"></div>
+            
+        </div>
+        <div class="container px-4 lg:px-24 py-4 mx-auto">
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                <div class="bg-white shadow-xl p-4 rounded-lg group border border-rose-500">
+                    <div class="relative flex overflow-hidden rounded-lg border border-rose-500">
+                        <p class="absolute self-end p-4 text-white hidden group-hover:block z-10 transition duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi repellendus eligendi sapiente fugiat.</p>
+                        <img src="/src/img/teh.jpg" alt="" class="rounded-lg group-hover:brightness-50 group-hover:scale-110 transition duration-300 ease-in-out">
+                    </div>
+                    
+                    <h5 class="text-center text-2xl font-light md:text-4xl font-Boogalo mt-2">Ice Tea</h5>
+                </div>
+                <div class="bg-white shadow-xl p-4 rounded-lg group border border-rose-500">
+                    <div class="relative flex overflow-hidden rounded-lg border border-rose-500">
+                        <p class="absolute self-end p-4 text-white hidden group-hover:block z-10 transition duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi repellendus eligendi sapiente fugiat.</p>
+                        <img src="/src/img/jeruk.jpg" alt="" class="rounded-lg group-hover:brightness-50 group-hover:scale-110 transition duration-300 ease-in-out">
+                    </div>
+                    
+                    <h5 class="text-center text-2xl font-light md:text-4xl font-Boogalo mt-2">Orange Ice</h5>
+                </div>
+                <div class="bg-white shadow-xl p-4 rounded-lg group border border-rose-500">
+                    <div class="relative flex overflow-hidden rounded-lg border border-rose-500">
+                        <p class="absolute self-end p-4 text-white hidden group-hover:block z-10 transition duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi repellendus eligendi sapiente fugiat.</p>
+                        <img src="/src/img/oreo.jpg" alt="" class="rounded-lg group-hover:brightness-50 group-hover:scale-110 transition duration-300 ease-in-out">
+                    </div>
+                    
+                    <h5 class="text-center text-2xl font-light md:text-4xl font-Boogalo mt-2">Chocolate Oreo</h5>
+                </div>
+                <div class="bg-white shadow-xl p-4 rounded-lg group border border-rose-500">
+                    <div class="relative flex overflow-hidden rounded-lg border border-rose-500">
+                        <p class="absolute self-end p-4 text-white hidden group-hover:block z-10 transition duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum quasi repellendus eligendi sapiente fugiat.</p>
+                        <img src="/src/img/sirup.jpg" alt="" class="rounded-lg group-hover:brightness-50 group-hover:scale-110 transition duration-300 ease-in-out">
+                    </div>
+                    
+                    <h5 class="text-center text-2xl font-light md:text-4xl font-Boogalo mt-2">Syrup</h5>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+        
+       
+    </section>
+
+    <section id="banner">
+        <div class="flex relative">
+            <div class="absolute self-center z-10">
+                <h5 class="uppercase px-2 text-white font-bold text-4xl sm:text-6xl lg:text-8xl 2xl:text-9xl">we always <br> serve <span class="text-rose-500">the best</span></h5>
+            </div>
+            <img src="/src/img/banner2.jpg" alt="banner" class="brightness-50 w-full bg-cover">
+        </div>
+        
+    </section>
+
+    <section id="contact" class="">
+        <h3 class="text-center text-3xl md:text-5xl font-Boogalo py-4">Hubungi Kami</h3>
+        <div class="container px-4 lg:px-24 mx-auto">
+            <form>
+                <div class="flex relative group mb-4">
+                    <label id="labelname" for="name" class="text-black w-full px-2 group-hover:w-1/4 transition-all duration-500 z-20 absolute group-active:w-1/4">
+                        <div class=" p-2 rounded-md bg-rose-500 text-white font-Heebo">Nama</div>
+                    </label>
+                    <label for="name" class="text-black w-1/4 px-2"></label>
+                    <div class="w-3/4 pr-2">
+                        <input type="text" name="name" id="name" class=" bg-slate-200 w-full text-black p-2 rounded-md">
+                    </div>
+                </div>
+                <div class="flex relative group mb-4">
+                    <label id="emaillabel" for="email" class="text-black w-full px-2 group-hover:w-1/4 transition-all duration-500 z-20 absolute group-active:w-1/4">
+                        <div class=" p-2 rounded-md bg-rose-500 text-white font-Heebo">Email</div>
+                    </label>
+                    <label for="email" class="text-black w-1/4 px-2"></label>
+                    <div class="w-3/4 pr-2">
+                        <input type="text" name="email" id="email" class=" bg-slate-200 w-full text-black p-2 rounded-md">
+                    </div>
+                </div>
+                <div class="flex relative group mb-4">
+                    <label id="msglabel" for="message" class="text-black w-full px-2 group-hover:w-1/4 transition-all duration-500 z-20 absolute group-active:w-1/4">
+                        <div class=" p-2 rounded-md bg-rose-500 text-white font-Heebo">Pesan</div>
+                    </label>
+                    <label for="message" class="text-black w-1/4 px-2"></label>
+                    <div class="w-3/4 pr-2">
+                        <input type="text" name="message" id="message" class=" bg-slate-200 w-full text-black p-2 rounded-md">
+                    </div>
+                </div>
+                <div class="w-full flex justify-center">
+                    <button type="submit" class="bg-rose-500 hover:bg-rose-600 px-8 py-2 rounded-md text-white font-Heebo">Kirim</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    
+
+    <footer class="mt-4 bg-slate-700 border-t-4 border-rose-500">
+        <div class="container px-4 lg:px-24 mx-auto">
+            <div class="flex flex-wrap p-4 justify-center">
+                <div class="w-full lg:w-1/3">
+                        <div class="flex justify-center 2xl:justify-start">
+                            <img src="/src/img/logo1.png" alt="" class="w-40 items-center">
+                        </div>
+                        <p class="text-lg px-2 pt-2 text-white font-Heebo text-justify hidden xl:block">Mie dengan ciri khas warna merah serta rasa pedas dan dicampur dengan rempah serta topping pilihan yang membuatnya memiliki cita rasa pedas gurih yang khas.</p>
+                </div>
+                <div class="w-full flex justify-center lg:w-1/3">
+                    <div>
+                        <h5 class=" font-semibold lg:text-2xl font-Heebo text-rose-500 py-2 text-xl text-center">Halaman</h5>
+                    <ul class="text-white text-center lg:flex gap-2 xl:flex-col">
+                        <li><a class="hover:text-rose-500 text-md font-Heebo transition duration-300" href="#home">Beranda</a></li>
+                        <li><a class="hover:text-rose-500 text-md font-Heebo transition duration-300" href="#about">Tentang</a></li>
+                        <li><a class="hover:text-rose-500 text-md font-Heebo transition duration-300" href="#menu">Menu</a></li>
+                        <li><a class="hover:text-rose-500 text-md font-Heebo transition duration-300" href="#contact">Kontak</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/3">
+                    <h5 class=" font-semibold lg:text-2xl text-rose-500 py-2 text-xl text-center">Temukan Kami di</h5>
+                    <div class="flex justify-center gap-4">
+                        <a href="">
+                            <div class="w-8 h-8 rounded-full overflow-hidden invert hover:bg-white transition duration-300 hover:invert-0">
+                                <img src="/src/img/instagram (2).png" alt="instagram">
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="w-8 h-8 rounded-full overflow-hidden invert hover:bg-white transition duration-300 hover:invert-0">
+                                <img src="/src/img/twitter (2).png" alt="twitter">
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="w-8 h-8 rounded-full overflow-hidden invert hover:bg-white transition duration-300 hover:invert-0">
+                                <img src="/src/img/facebook (1).png" alt="facebook">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <p class="text-white text-center">Created by <span class="text-rose-500">Rodipisroi</span>  © Copyright 2022</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="/dist/script.js"></script>
+    <script src="/src/tw-elements/dist/js/index.min.js"></script>
+</body>
+</html>
